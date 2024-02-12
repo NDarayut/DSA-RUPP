@@ -51,6 +51,7 @@ int main() {
   // Initialize array with the size of 10
   int arr[10] = {64, 34, 25, 12, 22, 11, 90, 13, 54, 77};
   // Find the length of array by using sizeof() function
+  //size of return the byte of the int which is 4 
   int length = sizeof(arr) / sizeof(arr[0]);
   //we call the functions to be use 
   bubble_sort_ascending(arr, length);
