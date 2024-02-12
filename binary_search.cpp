@@ -46,11 +46,13 @@ int Duplicate_search(int A[10], int KeySearch) {
   return 0;
 }
 
+//we pass in the key and the array
 int find(int KeySearch, int A[10]) {
-  int Count = 1;
-  int nElement = 10;
-  int lowerBound = 0;
-  int upperBound = nElement - 1;
+  
+  int Count = 1; //Count is the attempt it took to find the key
+  int nElement = 10; //the size of the array
+  int lowerBound = 0; 
+  int upperBound = nElement - 1; //last index of the array
   int curIn;
 
   while (true) {
